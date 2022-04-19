@@ -27,7 +27,7 @@ public class App {
      * 
      * Create method that returns the greater integer value
      */
-    private static int greater(int num1, int num2){
+    private static int greaterValue(int num1, int num2){
         return Math.max(num1,num2);
     }
 
@@ -35,7 +35,7 @@ public class App {
      * 
      * Create method that returns the greater double value
      */
-    private static double greater(double num1, double num2){
+    private static double greaterValue(double num1, double num2){
         return Math.max(num1,num2); //Math.Max accepts 2 arguments and returns the highest value between them
     }
 
@@ -50,12 +50,12 @@ public class App {
         /**
          * Call the greaterValue method with integer parameters
          */
-        System.out.println("The greater value between 45 and 100 is " + greater(45,100));
+        System.out.println("The greater value between 45 and 100 is " + greaterValue(45,100));
 
         /**
          * Call the greaterValue method with double parameters
          */
-        System.out.println("The greater value between 3.14 and 9.8 is " + greater(3.14,9.8));
+        System.out.println("The greater value between 3.14 and 9.8 is " + greaterValue(3.14,9.8));
 
     }
 }
